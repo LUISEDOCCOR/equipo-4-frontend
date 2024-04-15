@@ -5,7 +5,7 @@ export default {
 		extend: {
 			colors: {
 				cOrange: "#ff6464",
-				cGrey: "#696d85"
+				cGrey: "#545974"
 			}
 		},
 	},
