@@ -1,20 +1,22 @@
 export const Login = () => {
     return(
         <>
-        <header className="mx-auto max-w-6xl mt-20">
+        <header className="mx-auto max-w-6xl mt-10 px-8 xl:px-0 xl:mt-20">
             <span className="text-3xl text-cOrange font-bold">***</span>
-            <h1 className="text-cGrey uppercase font-bold text-6xl mt-6">
+            <h1 className="text-cGrey uppercase font-bold text-6xl mt-0 xl:mt-6">
                 login
             </h1>
             <h4 className="text-cLightGrey text-xl mt-4">
                 Let’s get you setup with a new account!
             </h4>
         </header>
-        <main className="mx-auto max-w-6xl mt-24">
-            <form action="" className="space-y-6 w-3/4">
+        <main className="mx-auto max-w-6xl mt-12 px-8 xl:px-0 xl:mt-24">
+            <form action="" className="space-y-6 w-full xl:w-3/4">
                 <label className="form-control w-full">
                     <div className="label">
-                        <span className="label-text text-cGrey font-bold uppercase">EMAIL</span>
+                        <span className="label-text text-cGrey font-bold uppercase">
+                            EMAIL
+                        </span>
                     </div>
                     <input 
                         type="text" 
@@ -24,7 +26,9 @@ export const Login = () => {
                 </label>
                 <label className="form-control w-full">
                     <div className="label">
-                        <span className="label-text text-cGrey font-bold uppercase">PASSWORD</span>
+                        <span className="label-text text-cGrey font-bold uppercase">
+                            PASSWORD
+                        </span>
                     </div>
                     <input 
                         type="password" 
@@ -39,7 +43,7 @@ export const Login = () => {
                     login
                 </button>
             </form>
-            <article className="mt-8 w-3/4 text-center">
+            <article className="mt-8 text-center w-full xl:w-3/4">
                 <a href="" className="text-cOrange uppercase">
                     Forgot Password
                 </a>
