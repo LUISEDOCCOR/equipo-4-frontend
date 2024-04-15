@@ -11,7 +11,7 @@ export const Login = () => {
             </h4>
         </header>
         <main className="mx-auto max-w-6xl mt-12 px-8 xl:px-0 xl:mt-24">
-            <form action="" className="space-y-6 w-full xl:w-3/4">
+            <form action="" className="space-y-6 w-full mx-auto xl:w-3/4">
                 <label className="form-control w-full">
                     <div className="label">
                         <span className="label-text text-cGrey font-bold uppercase">
@@ -43,7 +43,7 @@ export const Login = () => {
                     login
                 </button>
             </form>
-            <article className="mt-8 text-center w-full xl:w-3/4">
+            <article className="mt-8 text-center w-full mx-auto xl:w-3/4">
                 <a href="" className="text-cOrange uppercase">
                     Forgot Password
                 </a>
